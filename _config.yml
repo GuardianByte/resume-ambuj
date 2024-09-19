@@ -49,6 +49,7 @@ linkedin_username: ambujkumarcse
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ambuj and I'm a senior security engineer. Highly experienced Security Engineer (DevSecOps & Platform security) with around 4 years of experience in making cloud infra (AWS), code, docker containers, K8s workloads and apps safe & secure through building & implementing security automations. I ensure that applications are protected from potential threats by seamlessly integrating security into the development process. Additionally, I excel in finding and fixing vulnerabilities through hands-on VAPT, analysis and OSINT.
+
   I am most skilled in: <mark>Cloud security</mark>, <mark>DevSecOps</mark> and <mark> Application Security </mark>
 
 content:
