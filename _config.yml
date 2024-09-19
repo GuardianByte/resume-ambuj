@@ -1,0 +1,139 @@
+# Site
+repository: Ambuj/Profile
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ambuj Kumar
+title: Senior Security Engineer
+email: kumarambujanand@gmail.com
+website: https://github.com/GuardianByte
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: facespics
+github_username:  GuardianByte
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: ambujkumarcse
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Ambuj and I'm a senior security engineer. Highly experienced Security Engineer (DevSecOps & Platform security) with around 4 years of experience in making cloud infra (AWS), code, docker containers, K8s workloads and apps safe & secure through building & implementing security automations. I ensure that applications are protected from potential threats by seamlessly integrating security into the development process. Additionally, I excel in finding and fixing vulnerabilities through hands-on VAPT, analysis and OSINT.
+  I am most skilled in: <mark>Cloud security</mark>, <mark>DevSecOps</mark> and <mark> Application Security </mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: SecureCodeTrack
+        link: https://github.com/GuardianByte/SecureCodeTrack
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Automated entire test cases as well as automated ticket generation with assignment under Secret detection(700 + detection types)
+          Time saved : 
+              1 man month for secret scanning activity reduced to 2 business days
+              2 man days for 1 repo secure code review reduced to 10 minutes 
+              6 man days for running recon + DAST for one domain reduced to 4 hours 
+          Commercially :
+              Compared to the cost of enterprise secret detection tools is 28000 USD yearly which is Nearly 100 USD.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: REA India
+        link: Housing.com
+        # link_text: boringcompany.com
+        sub_title: Senior Security Engineer
+        caption: 04/07/2022 - Present
+        quote: >
+          India’s most innovative real estate advertising platform for homeowners, landlords, developers, and real estate brokers. 
+        description: | # this will include new lines to allow paragraphs
+            Conducting vulnerability assessment and penetration testing on the Web, API.
+            Assess, analyze, and prioritize security risks across (AWS) infrastructure
+            Pushing organization for Shift left DevSecOpS practices. 
+            Implement and enhance DevSecOps practices.
+            Interact with external security vendors to onboard the best security tool.
+            Monitor industry trends and emerging security threats, and propose proactive measures to mitigate risks and strengthen our products.
+            Deep Understanding of OWASP.
+            Understanding of Docker & Kubernetes security practices
+            Knowledge of scripting languages Python,& bash.
+            Implement and test security controls, including access controls, encryption, authentication, and intrusion detection systems, to safeguard our products and infrastructure.
+            Develop secure coding practices, SAST & DAST.
+            Conduct security assessments to identify potential vulnerabilities and risks in software and systems.
+            In-depth experience working with network security controls (WAF
+            Strong experience designing and implementing security controls for public cloud services AWS
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Chhattisgarh Swami Vivekanand Technical University
+        caption: 2017 - 2021
+        sub_title: B.Tech Computer Science & Engineering
+        quote: >
+          Established in 2005, CSVTU is the higher education institution in the India, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university.
+        description: | # this will include new lines to allow paragraphs
+          During my time at CSVTU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *College Events* taking on roles such as *Organizer* and *member*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in security engineering some of my other interests and hobbies are:
+      - Travelling
+      - Playing Cricket
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
