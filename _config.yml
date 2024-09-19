@@ -68,7 +68,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Simplifying Secret Detection.
         description: | # this will include new lines to allow paragraphs
           Automated entire test cases as well as automated ticket generation with assignment under Secret detection(700 + detection types)
           Time saved : 
